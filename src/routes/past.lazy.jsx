@@ -23,7 +23,6 @@ function ErrorBoundaryWrappedPastOrderRoutes() {
   }
 
 function PastOrdersRoute() {
-    throw new Error('lol hey')
   const [page, setPage] = useState(1)
   const [focusedOrder, setFocusedOrder] = useState()
 
