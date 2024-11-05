@@ -22,9 +22,9 @@ test("can submit contact form", async () => {
   const msgTextArea = screen.getByPlaceholderText("Message")
 
   const testData = {
-    name: "Brian",
-    email: "test@example.com",
-    message: "This is a test message",
+    name: "Hamed",
+    email: "hamed@example.com",
+    message: "This is my test msg",
   }
 
   nameInput.value = testData.name
